@@ -11,8 +11,8 @@ const (
 	bytesInKB   = 1024
 	sizeLimitKB = 100
 
-	MaxW = 512
-	MaxH = 512
+	MaxW = 1024
+	MaxH = 1024
 	MinW = 128
 	MinH = 128
 )
