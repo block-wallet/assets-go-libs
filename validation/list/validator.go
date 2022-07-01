@@ -3,7 +3,7 @@ package list
 import (
 	"fmt"
 
-	"github.com/trustwallet/assets-go-libs/validation"
+	"github.com/block-wallet/assets-go-libs/validation"
 )
 
 func ValidateList(list []Model) error {

@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/image/draw"
 
-	"github.com/trustwallet/assets-go-libs/http"
+	"github.com/block-wallet/assets-go-libs/http"
 )
 
 func GetPNGImageDimensions(path string) (width, height int, err error) {

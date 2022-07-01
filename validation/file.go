@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	str "github.com/trustwallet/assets-go-libs/strings"
+	str "github.com/block-wallet/assets-go-libs/strings"
 )
 
 func ValidateHasFiles(files []fs.DirEntry, fileNames []string) error {

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/trustwallet/assets-go-libs/path"
-	"github.com/trustwallet/assets-go-libs/validation"
-	"github.com/trustwallet/assets-go-libs/validation/info"
+	"github.com/block-wallet/assets-go-libs/path"
+	"github.com/block-wallet/assets-go-libs/validation"
+	"github.com/block-wallet/assets-go-libs/validation/info"
 	"github.com/trustwallet/go-primitives/asset"
 	"github.com/trustwallet/go-primitives/coin"
 	"github.com/trustwallet/go-primitives/types"

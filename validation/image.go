@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/trustwallet/assets-go-libs/image"
+	"github.com/block-wallet/assets-go-libs/image"
 )
 
 const (

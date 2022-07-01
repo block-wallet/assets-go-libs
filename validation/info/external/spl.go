@@ -3,7 +3,7 @@ package external
 import (
 	"fmt"
 
-	"github.com/trustwallet/assets-go-libs/http"
+	"github.com/block-wallet/assets-go-libs/http"
 )
 
 const splAPIURL = "https://public-api.solscan.io/token/holders?tokenAddress=%s"

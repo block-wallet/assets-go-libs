@@ -1,7 +1,7 @@
 package info
 
 import (
-	"github.com/trustwallet/assets-go-libs/validation"
+	"github.com/block-wallet/assets-go-libs/validation"
 )
 
 func ValidateCoin(c CoinModel, allowedTags []string) error {

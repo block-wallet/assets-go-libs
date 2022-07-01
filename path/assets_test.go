@@ -3,7 +3,7 @@ package path_test
 import (
 	"testing"
 
-	"github.com/trustwallet/assets-go-libs/path"
+	"github.com/block-wallet/assets-go-libs/path"
 )
 
 func Test_GetTokenFromAssetLogoPath(t *testing.T) {

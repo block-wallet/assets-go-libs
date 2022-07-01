@@ -1,4 +1,4 @@
-module github.com/trustwallet/assets-go-libs
+module github.com/block-wallet/assets-go-libs
 
 go 1.18
 

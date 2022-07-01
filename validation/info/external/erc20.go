@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/trustwallet/assets-go-libs/http"
+	"github.com/block-wallet/assets-go-libs/http"
 )
 
 const ethAPIURL = "https://api.ethplorer.io/getTokenInfo/%s?apiKey=freekey"

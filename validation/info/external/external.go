@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/trustwallet/assets-go-libs/http"
+	"github.com/block-wallet/assets-go-libs/http"
 )
 
 var (

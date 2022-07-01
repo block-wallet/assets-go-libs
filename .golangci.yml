@@ -1,5 +1,5 @@
 service:
-  golangci-lint-version: 1.38.x
+  golangci-lint-version: 1.46.x
 
 run:
   tests: false
@@ -24,8 +24,6 @@ linters-settings:
   nolintlint:
     allow-unused: false
     allow-leading-space: true
-  gci:
-    local-prefixes: github.com/trustwallet
   unparam:
     check-exported: true
   unused:
@@ -36,6 +34,7 @@ linters-settings:
     min-complexity: 25
   wrapcheck:
     ignorePackageGlobs:
+      - github.com/block-wallet/*
       - github.com/trustwallet/*
 issues:
   new: false
@@ -62,7 +61,6 @@ linters:
     - exportloopref
     - forcetypeassert
     - funlen
-    - gci
     - gochecknoglobals
     - gochecknoinits
     - gocognit

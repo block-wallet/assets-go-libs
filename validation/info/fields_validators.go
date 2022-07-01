@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	str "github.com/trustwallet/assets-go-libs/strings"
-	"github.com/trustwallet/assets-go-libs/validation"
+	str "github.com/block-wallet/assets-go-libs/strings"
+	"github.com/block-wallet/assets-go-libs/validation"
 	"github.com/trustwallet/go-primitives/coin"
 	"github.com/trustwallet/go-primitives/types"
 )
