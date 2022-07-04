@@ -9,7 +9,7 @@ import (
 
 const (
 	bytesInKB   = 1024
-	sizeLimitKB = 100
+	sizeLimitKB = 200
 
 	MaxW = 1024
 	MaxH = 1024
