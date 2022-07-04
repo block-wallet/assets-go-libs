@@ -51,6 +51,10 @@ func ValidateAssetRequiredKeys(a AssetModel) error {
 }
 
 func ValidateAssetType(assetType string, chain coin.Coin) error {
+	if assetType == "NATIVE" {
+		return nil
+	}
+
 	chainFromType, err := types.GetChainFromAssetType(assetType)
 	if err != nil {
 		return fmt.Errorf("failed to get chain from asset type: %w", err)
@@ -224,6 +228,10 @@ func ValidateDescriptionWebsite(description, website string) error {
 }
 
 func ValidateExplorer(explorer, name string, chain coin.Coin, addr, tokenType string) error {
+	if tokenType == "NATIVE" {
+		return nil
+	}
+
 	explorerExpected, err := coin.GetCoinExploreURL(chain, addr, tokenType)
 	if err != nil {
 		explorerExpected = ""
